@@ -3,6 +3,9 @@ const msgContainer = document.getElementById("msgContainer");
 const form = document.getElementById("sendForm");
 const msgInp = document.getElementById("msgInp");
 
+// Sound
+const ting = new Audio("../Gallery/ting.mp3");
+
 // Socket IO
 const socket = io("http://localhost:8000");
 
@@ -14,6 +17,7 @@ const append = (msg, pos, user) => {
     msgElem.classList.add("message");
     msgElem.classList.add(pos);
     msgContainer.append(msgElem);
+    if (pos !== "right") ting.play();
   }
   msgContainer.scrollTop = msgContainer.scrollHeight;
 };
