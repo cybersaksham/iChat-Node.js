@@ -17,6 +17,7 @@ h1 {
 #msgContainer {
   display: block;
   margin: auto;
+  padding: 20px;
   width: 80%;
   height: 70vh;
   overflow-y: auto;
@@ -45,7 +46,7 @@ h1 {
 }
 
 .center {
-  margin: auto;
+  margin: 17px auto;
   clear: both;
   text-align: center;
   background-color: #f7f7ac;

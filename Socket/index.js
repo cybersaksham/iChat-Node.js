@@ -15,4 +15,8 @@ io.on("connection", (socket) => {
   socket.on("send", (msg) => {
     socket.broadcast.emit("recieve", { msg, user: users[socket.id] });
   });
+
+  socket.on("disconnect", () => {
+    socket.broadcast.emit("left", users[socket.id]);
+  });
 });
