@@ -15,6 +15,7 @@ const append = (msg, pos, user) => {
     msgElem.classList.add(pos);
     msgContainer.append(msgElem);
   }
+  msgContainer.scrollTop = msgContainer.scrollHeight;
 };
 
 // Connecting
