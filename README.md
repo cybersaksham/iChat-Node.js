@@ -38,6 +38,7 @@ rm -rf iChat-Node.js
 <p>Install node js from https://nodejs.org/en/</p>
 
 <li>Installing nodemon</li>
+
 ```cmd
 npm i -g nodemon
 ```
