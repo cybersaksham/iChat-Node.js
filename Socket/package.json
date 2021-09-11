@@ -1,0 +1,22 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "This is a chat application made with node js & socket io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node js",
+    "socket io",
+    "javascript",
+    "html",
+    "css",
+    "chatting"
+  ],
+  "author": "saksham",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.2.0"
+  }
+}
