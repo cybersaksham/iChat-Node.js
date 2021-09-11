@@ -4,7 +4,7 @@ const form = document.getElementById("sendForm");
 const msgInp = document.getElementById("msgInp");
 
 // Sound
-const ting = new Audio("../Gallery/ting.mp3");
+const ting = new Audio("./Gallery/ting.mp3");
 
 // Socket IO
 const socket = io("http://localhost:8000");
